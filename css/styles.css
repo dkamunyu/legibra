@@ -1,0 +1,592 @@
+/* RESET CSS BEGIN */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    }
+
+ol, ul {
+    list-style: none;
+}
+
+a img {
+    border: 0;
+}
+
+a:link,
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+/*RESET CSS END*/
+
+
+/*FONTS*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+/*    font-family: 'Lato', sans-serif;*/
+}
+
+h1,h2,h3 {
+
+}
+
+.heading {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.font-light {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.white {
+    color: #fff;
+}
+
+section {
+    padding: 70px 0 100px;
+}
+/*COLORS*/
+
+.p-bg {
+    background: #7251c2;
+}
+.p-font {
+    color: #7251c2;
+}
+
+.p-font-light1 {
+    color: #7f65c7;
+    
+}
+
+.p-font-light2 {
+    color: #876bcb;
+    
+}
+
+.gold {
+    background-color: #c19b00;
+}
+
+.gold-text {
+    color: #c19b00;
+}
+
+.blue {
+    background: #eef3fa;
+}
+
+.grey {
+    color: #4e4e4d;
+}
+
+/*Helper Classes*/
+.t-padding-30 {
+    padding-top: 30px;
+}
+.t-padding-40 {
+    padding-top: 40px;
+}
+.t-padding-50 {
+    padding-top: 50px;
+}
+
+.t-padding-100 {
+    padding-top: 100px;
+}
+
+
+.b-padding-15 {
+    padding-bottom: 15px;
+}
+
+.b-padding-20 {
+    padding-bottom: 20px;
+}
+
+.b-padding-30 {
+    padding-bottom: 30px;
+}
+.b-padding-50 {
+    padding-bottom: 50px;
+}
+.b-padding-100 {
+    padding-bottom: 100px;
+}
+
+
+.big-text {
+    font-size: 60px;
+}
+
+.btn-default {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin: 50px 12px 0;
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .8s;
+/*    margin: 15px 12px;*/
+
+}
+
+.btn-ghost {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin: 50px 12px 0;
+    background: transparent;
+    border: 2px solid #7251c2;
+    color: #7251c2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .8s;
+    /*    margin: 15px 12px;*/
+
+}
+
+.btn-default.gold {
+    background: #c19b00;
+    border-color: #c19b00;
+}
+.btn-default:hover,
+.btn-ghost:hover{
+    background: #c19b00;
+    border-color: #c19b00;
+    color: #fff;
+}
+
+/*----------------------------------------------------------------------------
+
+                                HEADER
+
+------------------------------------------------------------------------------*/
+.navbar-default,
+.navbar-default .navbar-collapse {
+    border: none;  
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+} 
+
+.navbar-default .navbar-toggle {
+    border-color: transparent; 
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #8e74ce;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, 
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+} 
+
+header {
+    
+}
+.header {
+    margin-top: 75px;
+}
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+
+.icon_download {
+    font-size: 23px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+.btn-md {
+    padding: 15px 25px;
+}
+
+/*----------------------------------------------------------------------------
+
+                                ABOUT
+
+------------------------------------------------------------------------------*/
+#about {
+    padding-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    overflow: visible;
+}
+.about-row {
+    margin-top: -15px;
+}
+
+.about-img {
+    position: relative;
+}
+.iphone {
+    position: absolute;
+    margin-top: 40px;
+    left: 160px;
+}
+
+.about-content h3 {
+    line-height: 1.6;
+}
+.about-content {
+    font-size: 12px;
+}
+
+#about .btn-default,
+#about .btn-ghost {
+    margin-top: 30px;
+    padding: 15px 24px;
+    
+}
+
+.ratings {
+    width: 65%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 5px 6px 12px #f0f6ff;
+    position: absolute;
+    margin-top: -110px;
+    left: 15%;
+    
+}
+
+.ratings .col-md-4 {
+    margin: 20px 0 ;
+}
+.ratings i {
+    font-size: 25px;
+}
+
+.ratings p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.border {
+    border-right: 1px solid #e3dcf3;
+    
+    
+}
+/*----------------------------------------------------------------------------
+
+                                FEATURES
+
+------------------------------------------------------------------------------*/
+#features {
+    padding-bottom: 60px;
+}
+
+.features i {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #7251c2;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 22px;
+    margin-bottom: 70px;
+}
+
+.features h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.features p {
+    line-height: 1.8;
+    font-size: 12px;
+}
+
+.phone {
+    width: 240px;
+    height: 506px;
+}
+
+.lower {
+    margin-top: 25px;
+}
+
+
+/*----------------------------------------------------------------------------
+
+                                    SERVICES
+
+------------------------------------------------------------------------------*/
+.services i {
+    width: 50px;
+    border: 1px solid #c9c2e9;;
+    padding: 20px 22px;
+    font-size: 36px;
+    color: #0891f9;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.services h3 {
+    padding-top: 20px;
+}
+.services .icon_cloud-download_alt {
+    color: #c19b00;
+    border: 1px solid #fff;
+}
+
+.services .blue,
+.services .p-bg{
+    padding: 60px 15px 30px;
+}
+
+/*----------------------------------------------------------------------------
+
+                                    VIDEO
+
+------------------------------------------------------------------------------*/
+#video {
+    background-color: #876bcb;
+/*
+    background-image: url(../images/iphone-off.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+*/
+}
+
+#video h2 {
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+video {
+    min-height: 40%;
+    min-width: 40%;
+}
+.video i {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;;
+    padding: 7px 11px;
+    font-size: 50px;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 45px;
+    z-index: 10;
+}
+
+.video i:hover {
+    cursor: pointer;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#video li {
+    padding-right: 10px;
+}
+.video-social {
+    color: #fff;
+    width: 45px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    font-size: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    transition: .7s;
+}
+
+.video-social:hover {
+    background: #c19b00; 
+    border: 1px solid #c19b00;
+}
+/*----------------------------------------------------------------------------
+
+                                PRICING
+
+------------------------------------------------------------------------------*/
+#pricing button {
+    margin: 50px 0 ;  
+}
+
+/*
+#btn-price,
+#btn-price3{
+    border: 2px solid #7251c2;
+    color: #7251c2;    
+    
+}
+*/
+
+#pricing button:hover {
+    border-color: #c19b00;
+    color: #fff;
+}
+
+#pricing {
+    line-height: 2.7;
+    
+}
+
+#pricing p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+header {
+    background-color: #7251c2;
+}
+
+/*----------------------------------------------------------------------------
+
+                                    DOWNLOAD
+
+------------------------------------------------------------------------------*/
+
+.fa {
+    font-size: 30px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+
+/*----------------------------------------------------------------------------
+
+                                    FAQ
+
+------------------------------------------------------------------------------*/
+#faq h3 {
+    margin: 0 0 25px;
+
+}
+
+.faq-content {
+    padding-bottom: 40px;
+}
+/*----------------------------------------------------------------------------
+
+                                    CONTACT
+
+------------------------------------------------------------------------------*/
+#contact {
+    
+    padding: 40px 0;
+    clear: both;
+}
+
+
+/*----------------------------------------------------------------------------
+
+                                    FOOTER
+
+------------------------------------------------------------------------------*/
+
+footer {
+    height: 152px;
+    padding: 40px 0;
+    
+}
+
+.social {
+    list-style: none;
+    padding-bottom: 18px;
+    
+}
+
+.social li {
+    display: inline;
+    padding-right: 25px;
+    color: #7f65c7;
+    
+}
+
+#footer i {
+    width: 50px;
+    border: 1px solid #7f65c7;
+    padding: 12px 13px;
+    font-size: 18px;
+    color: #7f65c7;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    transition: .7s;
+}
+
+#footer i:hover {
+    background: #c19b00;
+    border: 1px solid #c19b00;
+}
+
+.copyright {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
