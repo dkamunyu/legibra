@@ -34,6 +34,29 @@ section {
     padding: 70px 0 100px;
 }
 
+/*
+.wrapper {
+    max-width: 1620px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+        white-space: nowrap;
+    padding-left: 225px;
+    padding-right: 225px;
+}
+*/
+
+.container {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
 .heading {
     font-size: 30px;
     color: #fff;
@@ -132,6 +155,13 @@ section {
 .b-padding-100 {
     padding-bottom: 100px;
 }
+.b-margin-20 {
+    margin-bottom: 20px;
+}
+.b-margin-40 {
+    margin-bottom: 40px;
+}
+
 
 .big-text {
     font-size: 60px;
@@ -144,8 +174,8 @@ section {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50px;
-    padding: 20px 40px;
-    margin: 50px 12px 0;
+    padding: 15px 20px;
+    margin: 20px 12px 0;
     background: transparent;
     border-color: #fff;
     color: #fff;
@@ -154,6 +184,13 @@ section {
     font-weight: bold;
     transition: .8s;
 
+}
+
+@media and (min-width:480px){
+    .btn-default{
+        padding: 20px 40px;
+        margin: 50px 12px 0;
+    }
 }
 
 .btn-ghost {
@@ -283,6 +320,7 @@ section {
 .collapse.in{
     display:block !important;
     margin-top: 20px;
+    text-align: center ;
 }
 }
 
@@ -307,12 +345,23 @@ header {
     margin-top: 75px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 30px;
+    line-height: 1.4;
 }
 
 h4 {
-    letter-spacing: 15px;
+    letter-spacing: 5px; 
+    line-height: 2;
     margin-bottom: 20px;
+}
+
+@media and (min-width:480px){
+    h1 {
+        font-size: 50px;
+    }
+    h4 {
+        letter-spacing: 15px;  
+    }
 }
 
 .icon_download {
@@ -369,8 +418,8 @@ h4 {
     background-color: #fff;
     box-shadow: 5px 6px 12px #f0f6ff;
     position: absolute;
-    margin-top: -110px;
-    left: 15%;
+    margin-top: -120px;
+    left: 20%;
     
 }
 
@@ -431,6 +480,7 @@ h4 {
 .phone {
     width: 240px;
     height: 506px;
+    margin: auto;
 }
 
 .lower {
@@ -534,6 +584,72 @@ h4 {
     color: #a1a1a1;
     font-size: 28px;  
 }
+
+/*----------------------------------------------------------------------------
+
+                                SCREENSHOTS CAROUSEL
+
+------------------------------------------------------------------------------*/
+/*
+.owl-prev,
+.owl-next{
+    display: none;
+}
+*/
+#app-scr-carousel {
+    position: relative;
+    margin: 0 40px;
+}
+
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    margin: auto !important;
+    
+}
+
+.owl-next i,
+.owl-prev i{
+/*    top: 30px;*/
+    color: #fff;
+
+}
+
+.owl-carousel .owl-prev {
+    left: -63px;
+    top: 50px;
+}
+
+.owl-carousel .owl-next {
+    right: -30px;
+    top: 50px;
+}
+
+
+.owl-item.active.center{
+    transform: scaleY(1.6)!important;
+    vertical-align: bottom;
+}
+
+.owl-item.active.center>div>img {
+    height: 100%;
+}
+
+.carousel-control {
+    opacity: 1;
+}
+
+
+/*
+@media only screen and (min-width: 768px) {
+    #app-scr-carousel {
+        margin: 0 160px;
+    }  
+
+}
+*/
 /*----------------------------------------------------------------------------
 
                                     VIDEO
@@ -541,25 +657,18 @@ h4 {
 ------------------------------------------------------------------------------*/
 #video {
     background-color: #876bcb;
-/*
-    background-image: url(../images/iphone-off.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-*/
 }
 
 #video h2 {
     font-weight: 200;
     margin-bottom: 0;
 }
-
 video {
-    min-height: 40%;
-    min-width: 40%;
+    position: relative;
 }
 .video i {
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 45%;
     width: 70px;
     height: 70px;
@@ -660,11 +769,13 @@ header {
 ------------------------------------------------------------------------------*/
 #faq h3 {
     margin: 0 0 25px;
+    font-size: 20px;
 
 }
 
 .faq-content {
-    padding-bottom: 40px;
+    padding: 0 20px 40px;
+/*    padding-bottom: 40px;*/
 }
 /*----------------------------------------------------------------------------
 
@@ -755,7 +866,7 @@ input[type=text]:focus, .form-control.textarea:focus {
 
 footer {
     height: 152px;
-    padding: 40px 0;
+    padding: 40px 10px;
     
 }
 
@@ -768,8 +879,13 @@ footer {
 .social li {
     display: inline;
     padding-right: 25px;
+    margin-bottom: 20px;
     color: #7f65c7;
     
+}
+
+.social li:last-of-type {
+    padding-right: 0;
 }
 
 #footer i {
@@ -790,13 +906,49 @@ footer {
     border: 1px solid #c19b00;
 }
 
+footer li {
+    margin-bottom: 20px;
+}
+
 .copyright {
     padding: 0;
 }
 
 
+/*----------------------------------------------------------------------------
 
+                                ANIMATIONS
 
+------------------------------------------------------------------------------*/
+.wp-up-1,
+.wp-left-1,
+.wp-up-2,
+.wp-right-1,
+.wp-up-3,
+.wp-up-4,
+.wp-up-5{
+    opacity: 0; 
+}
+
+.wp-up-1 .animated,
+.wp-left-1 .animated,
+.wp-up-2 .animated,
+.wp-right-1 .animated,
+.wp-up-3 .animated,
+.wp-up-4 .animated,
+.wp-up-5 .animated{
+    opacity: 1; 
+}
+
+.fadeInUp,
+.fadeInLeft,
+.fadeInRight,
+.pulse{
+    animation-duration: 2s;
+}
+.pulse {
+    animation-iteration-count: 5;
+}
 
 
 

@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>LEGIBRA APP</title>
         
@@ -13,13 +13,20 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:200,300,400,700" rel="stylesheet">
         
-        <!-- Elegant icons CSS -->
+        <!-- Font Awesome icons CSS -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         
         <!-- Elegant icons CSS -->
         <link rel="stylesheet" href="css/elegant-fonts.css" >
-       
-         <!-- Custom CSS -->
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.css" >
+        
+        <!-- Slick CSS -->
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" href="css/owl.theme.default.css">
+        
+          <!-- Custom CSS -->
         <link rel="stylesheet" href="css/styles.css" >
 
         <!--[if lt IE 9]>
@@ -30,6 +37,7 @@
     </head>
     <body>        
 <header class="b-padding-100">
+   <div class="wrapper">
     <nav class="navbar navbar-default p-bg">
         <div class="container">
             <div class="navbar-header">
@@ -58,21 +66,24 @@
     <hr>
     <div class="container-fluid white">
         <div class="row header">
-           <div class="col-md-8 t-padding-50">
+           <div class="col-md-8 t-padding-50 b-margin-40">
                <h4>LEGIBRA IS THE BEST</h4>
                <h1 class="">BEST LANDING PAGE TO</h1>
                <h1 class="">PRESENT YOUR APP</h1>
-               <button type="button" class="btn btn-default btn-md gold"><i class="icon_download"></i>DOWNLOAD</button>
+               <button type="button" class="btn btn-default btn-md gold animated pulse"><i class="icon_download"></i>DOWNLOAD</button>
                <button type="button" class="btn btn-default btn-md ">LEARN MORE</button>
            </div>
            <div class="col-md-4">
-               <img src="images/iphone-off.png" alt="" width="260" height="460">
+               <img class="img-responsive" src="images/iphone-off.png" alt="" >
            </div>
         </div>
     </div>
+    </div> <!--./wrapper-->
 </header>
                             <!--ABOUT-->
-    <section id="about">
+<section id="about">
+  <div class="wrapper">
+   <div class="container">
         <div class="ratings row text-center">
             <div class="col-md-4 border">
                 <i class=" icon_heart_alt gold-text"></i>
@@ -86,115 +97,148 @@
                 <i class=" icon_star_alt gold-text"></i>
                 <p class="grey">4.5 App Rating</p>
             </div>
-        </div>
-        <div class="text-center t-padding-100">
-            <h2 class="heading b-padding-15 p-font">ABOUT LEGIBRA</h2>
-            <img src="images/polygon.png" alt="polygon">
-        </div>
-        <div class="row about-row">            
-            <div class="col-md-6 text-right about-img">
-                <img class="iphone" src="images/iphone-off.png" alt="" width="320" height="580">
-            </div>
-            <div class="col-md-6 text-left">
-                <div class="about-content">
-                    <h3 class="t-padding-50"><span class="p-font">LEGIBRA</span> is the best app for your business</h3>
-                    <p class="grey font-light t-padding-30 b-padding-20">Qui officia deserunt mollit anim id est 
-                        laborum. Sed ut perspiciatis unde omnis itempor 
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <p class="grey font-light ">Ut enim ad minim vienia no
-                        strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate goi velit esse cillum dolore </p>
+       </div><!--./row-->
+      </div><!--./container-->
+      <div class="container">
+    <div class="text-center t-padding-100">
+        <h2 class="heading b-padding-15 p-font">ABOUT LEGIBRA</h2>
+        <img  src="images/polygon.png" alt="polygon">
+    </div>
+            <div class="row about-row">            
+                <div class="col-md-6 sm-12 text-right about-img">
+                    <img class="iphone img-responsive wp-up-1 " src="images/iphone-off.png" alt="iphone" >
                 </div>
-                <div class="container  b-padding-50">
-                    <button type="button" class="btn btn-default btn-md gold"><i class="fa fa-linux"></i>DOWNLOAD</button>
-                    <button type="button" class="btn btn-ghost btn-md "><i class="fa fa-windows"></i>DOWNLOAD</button>
+                <div class="col-md-6 sm-12 text-left">
+                    <div class="about-content">
+                        <h3 class="t-padding-50"><span class="p-font">LEGIBRA</span> is the best app for your business</h3>
+                        <p class="grey font-light t-padding-30 b-padding-20">Qui officia deserunt mollit anim id est 
+                            laborum. Sed ut perspiciatis unde omnis itempor 
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="grey font-light ">Ut enim ad minim vienia no
+                            strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate goi velit esse cillum dolore </p>
+                    </div>
+                    <div class="  b-padding-50">
+                        <button type="button" class="btn btn-default btn-md gold "><i class="fa fa-linux"></i>DOWNLOAD</button>
+                        <button type="button" class="btn btn-ghost btn-md "><i class="fa fa-windows"></i>DOWNLOAD</button>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>                        
-                            
-                            
-                            <!--AWESOME SERVICES-->
+       </div><!--./row-->
+      </div> <!--./container-->
+    </div> <!--./wrapper-->
+</section>                        
+   
+                            <!--FEATURES-->                            
     <section id="features" class="p-bg">
-        <div class="container features white">
-            <div class="text-center b-padding-50">
-                <h2 class="heading b-padding-15">APP FEATURES</h2>
-                <img src="images/polygon_long.png" alt="polygon">
-            </div>
-            <div class="row text-justified">
-                <div class="col-md-4 lower">
-                    <div class="feature-text b-padding-50">
-                        <i class="icon_cogs"></i> 
-                        <h3>Great &amp; Fast Service</h3>
-                        <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
-                    </div>
-                    <div class="feature-text b-padding-50">
-                        <i class="icon_gift_alt"></i> 
-                        <h3>High quality products</h3>
-                        <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
-                    </div>
-                    <div class="feature-text b-padding-50">
-                        <i class="icon_genius"></i> 
-                        <h3>Creative design</h3>
-                        <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
-                    </div>                    
+        <div class="wrapper">
+            <div class="container features white">
+                <div class="text-center b-padding-50">
+                    <h2 class="heading b-padding-15">APP FEATURES</h2>
+                    <img src="images/polygon_long.png" alt="polygon">
                 </div>
-                <div class="col-md-4 text-center">
-                    <img class="phone" src="images/iphone-off.png" alt="">
-                </div>
-                <div class="col-md-4 lower">
-                    <div class="feature-text b-padding-50">
-                        <i class="icon_cloud-download_alt"></i> 
-                        <h3>Daily New Update</h3>
-                        <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                <div class="row text-justified">
+                    <div class="col-md-4 lower ">
+                        <div class="feature-text b-padding-50 wp-left-1">
+                            <i class="icon_cogs"></i> 
+                            <h3>Great &amp; Fast Service</h3>
+                            <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                        </div>
+                        <div class="feature-text b-padding-50 wp-left-1">
+                            <i class="icon_gift_alt"></i> 
+                            <h3>High quality products</h3>
+                            <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                        </div>
+                        <div class="feature-text b-padding-50 wp-left-1">
+                            <i class="icon_genius"></i> 
+                            <h3>Creative design</h3>
+                            <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                        </div>                    
                     </div>
-                    <div class="feature-text b-padding-50">
-                        <i class="icon_gift_alt"></i> 
-                        <h3>High quality products</h3>
-                        <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                    <div class="col-md-4 text-center">
+                        <img class="phone img-responsive wp-up-2" src="images/iphone-off.png" alt="">
                     </div>
-                    <div class="feature-text b-padding-50">
-                        <i class="icon_tablet"></i> 
-                        <h3>Ultra responsive</h3>
-                        <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
-                    </div>                    
+                    <div class="col-md-4 lower ">
+                        <div class="feature-text b-padding-50 wp-right-1">
+                            <i class="icon_cloud-download_alt"></i> 
+                            <h3>Daily New Update</h3>
+                            <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                        </div>
+                        <div class="feature-text b-padding-50 wp-right-1">
+                            <i class="icon_gift_alt"></i> 
+                            <h3>High quality products</h3>
+                            <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                        </div>
+                        <div class="feature-text b-padding-50 wp-right-1">
+                            <i class="icon_tablet"></i> 
+                            <h3>Ultra responsive</h3>
+                            <p class="font-light">Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. </p>
+                        </div>                    
+                    </div>
                 </div>
-            </div>
-        </div>
-
-
+            </div> <!--./container-->
+        </div>  <!--./wrapper-->  
     </section>                            
                            
                             <!--AWESOME SERVICES-->
-<section id="services">
-    <div class="container services text-center">
-        <h2 class="heading p-font b-padding-15">AWESOME SERVICES</h2>
-        <img src="images/polygon_long.png" alt="polygon">
-        <div class="row t-padding-50">
-            <div class="col-md-4  grey">
-                <div class="blue">
-                    <i class="icon_table"></i>
-                    <h3>Events &amp; Counters</h3>
-                    <p class="font-light">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es laboris ut.</p>
+    <section id="services">
+        <div class="wrapper">   
+            <div class="container services text-center">
+                <h2 class="heading p-font b-padding-15">AWESOME SERVICES</h2>
+                <img class="img-responsive" src="images/polygon_long.png" alt="polygon">
+                <div class="row t-padding-50">
+                    <div class="col-md-4  grey wp-up-3 b-margin-20">
+                        <div class="blue">
+                            <i class="icon_table"></i>
+                            <h3>Events &amp; Counters</h3>
+                            <p class="font-light">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es laboris ut.</p>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 white wp-up-3 b-margin-20">
+                        <div class="p-bg">
+                            <i class="icon_cloud-download_alt wp-up3"></i>
+                            <h3>Data Storage</h3>
+                            <p class="font-light">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es laboris ut.</p>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 grey wp-up-3 b-margin-20">
+                       <div class="blue">
+                           <i class="icon_lock_alt"></i>
+                           <h3>Security</h3>
+                           <p class="font-light">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es laboris ut.</p>
+                       </div>
+                    </div><!-- /.col-md-4 -->
+                </div><!-- /.row -->
+            </div><!--./container-->
+        </div> <!--./wrapper-->  
+    </section>
+
+                        <!--APP SCREENSHOTS-->
+                        
+    <section id="screenshots" class="p-bg">
+        <div class="wrapper">   
+            <div class="container text-center ">
+                <div class="b-padding-50">
+                    <h2 class="heading white b-padding-15">Apps Screenshots</h2>
+                    <img src="images/polygon.png" alt="polygon">
                 </div>
-            </div><!-- /.col-md-4 -->
-            <div class="col-md-4 white">
-                <div class="p-bg">
-                    <i class="icon_cloud-download_alt "></i>
-                    <h3>Data Storage</h3>
-                    <p class="font-light">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es laboris ut.</p>
-                </div>
-            </div><!-- /.col-md-4 -->
-            <div class="col-md-4 grey">
-               <div class="blue">
-                   <i class="icon_lock_alt"></i>
-                   <h3>Security</h3>
-                   <p class="font-light">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es laboris ut.</p>
-               </div>
-            </div><!-- /.col-md-4 -->
-        </div><!-- /.row -->
-    </div>
-</section>               
+                                <!--CAROUSEL-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="app-scr-carousel" >
+                            <div class="owl-carousel owl-theme">
+                                <div><img src="images/strawberries.jpg" class="img-responsive"></div>
+                                <div><img src="images/strawberries.jpg" class="img-responsive"></div>
+                                <div><img src="images/strawberries.jpg" class="img-responsive"></div>
+                                <div><img src="images/strawberries.jpg" class="img-responsive"></div>
+                                <div><img src="images/strawberries.jpg" class="img-responsive"></div>
+                                <div><img src="images/strawberries.jpg" class="img-responsive"></div>    
+                            </div>     
+                        </div>
+                    </div>
+                </div> <!--./row-->                         
+            </div> <!--./container-->
+        </div> <!--./wrapper-->   
+    </section>              
                         <!--TESTIMONIALS-->                       
 <section id="testimonials">    				
     <div class="container">
@@ -243,200 +287,210 @@
                 </div>
                 <a class="left carousel-control" href="#fade-quote-carousel" role="button" data-slide="prev">
                     <span class="arrow_carrot-left_alt2" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+<!--                    <span class="sr-only">Previous</span>-->
                 </a>
                 <a class="right carousel-control" href="#fade-quote-carousel" role="button" data-slide="next">
                     <span class="arrow_carrot-right_alt2" aria-hidden="true"></span>
-
-                    <span class="sr-only">Next</span>
+<!--                    <span class="sr-only">Next</span>-->
                 </a>                       
-            </div>							
-        </div>
-    </div>
+            </div>	<!--/col-sm-12-->						
+        </div><!--/.row-->
+    </div><!--/container-->
 </section>                                                                       
                         
                         
                         <!--VIDEO-->
-<section id="video" class="p-bg">
-   <div class="container text-center">
-       <h2 class="white b-padding-30">Check out how it works</h2>   
-       <div class="video">
-           <i class="arrow_triangle-right"></i>
-           <video  poster="images/polygon-sm.png">
-               <source src="movie.mp4" type="video/mp4">
-               <source src="movie.ogg" type="video/ogg">
-               Your browser does not support the video tag.
-           </video>
-       </div>
-       <ul class="social">
-           <li><a href="https://www.facebook.com/legibraholdings"><i class="social_facebook video-social"></i></a></li>
-           <li><a href="https://twitter.com/legibra"><i class="social_twitter video-social"></i></a></li>
-           <li><a href="#"><i class="social_youtube video-social"></i></a></li>
-           
-       </ul>
-   </div>
-</section>                        
+    <section id="video" class="p-bg">
+      <div class="wrapper">
+           <div class="container text-center">
+               <h2 class="white b-padding-30">Check out how it works</h2>   
+               <div class="video">
+                   <i class="arrow_triangle-right"></i>
+                   <video  poster="images/play-poster2.png">
+                       <source src="media/movie.mp4" type="video/mp4">
+                       <source src="media/movie.ogg" type="video/ogg">       
+                   </video>
+               </div>
+                   <ul class="social">
+                       <li><a href="https://www.facebook.com/legibraholdings"><i class="social_facebook video-social"></i></a></li>
+                       <li><a href="https://twitter.com/legibra"><i class="social_twitter video-social"></i></a></li>
+                       <li><a href="#"><i class="social_youtube video-social"></i></a></li>
+                   </ul>   
+            </div><!--/container-->
+        </div> <!--/wrapper-->
+    </section>                        
 
                         <!--PRICING PLAN-->
-<section id="pricing">
-    <div class="container text-center">
-       <h2 class="heading p-font">PRICING PLAN</h2>
-       <img src="images/polygon.png" alt="polygon">
-        <div class="row t-padding-50">
-            <div class="col-md-4">
-                <div class="blue t-padding-40">
-                   <h3 class="p-font">Standard</h3>
-                   <h2 class="b-padding p-font">$ <span class="big-text">48</span></h2>
-                   <div class="grey">
-                       <p>Lorem ipsum dolor sit amet</p>
-                       <p>Lorem ipsum dolor sit amet</p>
-                       <p>Lorem ipsum dolor sit amet</p>
-                       <p>Lorem ipsum dolor sit amet</p>
-                   </div>
-                   <button id="btn-price" class="btn btn-ghost btn-lg">BUY NOW</button>
-               </div>
-            </div>
-            <div class="col-md-4">
-                <div class="p-bg t-padding-40">
-                    <h3 class="white">Personal</h3>
-                    <h2 class="b-padding white">$ <span class="big-text">78</span></h2>
-                    <div class="white">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
+    <section id="pricing">
+        <div class="wrapper">   
+            <div class="container text-center">
+               <h2 class="heading p-font">PRICING PLAN</h2>
+               <img src="images/polygon.png" alt="polygon">
+                <div class="row t-padding-50">
+                    <div class="col-md-4  b-margin-20">
+                        <div class="blue t-padding-40 wp-up-4">
+                           <h3 class="p-font">Standard</h3>
+                           <h2 class="b-padding p-font">$ <span class="big-text">48</span></h2>
+                           <div class="grey">
+                               <p>Lorem ipsum dolor sit amet</p>
+                               <p>Lorem ipsum dolor sit amet</p>
+                               <p>Lorem ipsum dolor sit amet</p>
+                               <p>Lorem ipsum dolor sit amet</p>
+                           </div>
+                           <button id="btn-price" class="btn btn-ghost btn-lg">BUY NOW</button>
+                       </div>
                     </div>
-                    <button class="btn btn-default btn-lg gold">BUY NOW</button>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blue t-padding-40">
-                    <h3 class="p-font">Standard</h3>
-                    <h2 class="b-padding p-font">$ <span class="big-text">48</span></h2>
-                    <div class="grey">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="col-md-4 b-margin-20">
+                        <div class="p-bg t-padding-40 wp-up-4">
+                            <h3 class="white">Personal</h3>
+                            <h2 class="b-padding white">$ <span class="big-text">78</span></h2>
+                            <div class="white">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <button class="btn btn-default btn-lg gold animated pulse">BUY NOW</button>
+                        </div>
                     </div>
-                    <button id="btn-price3" class="btn btn-ghost btn-lg">BUY NOW</button>
+                    <div class="col-md-4 b-margin-20">
+                        <div class="blue t-padding-40 wp-up-4">
+                            <h3 class="p-font">Standard</h3>
+                            <h2 class="b-padding p-font">$ <span class="big-text">48</span></h2>
+                            <div class="grey">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <button id="btn-price3" class="btn btn-ghost btn-lg">BUY NOW</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>                        
+            </div><!--/container-->
+        </div> <!--/wrapper-->   
+    </section>                        
         
                             <!--DOWNLOAD-->
-        <section id="download" class="p-bg">
+    <section id="download" class="p-bg">
+       <div class="wrapper">
             <div class="container text-center">
-                <h2 class="heading b-padding-50">OVER ONE MILLION PEOPLE USING <span class="gold-text">LEGIBRA</span> APP</h2>
-                <p class="font-light white">Duis aute irure dolor in reprehenderit in  voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  cupidatat non proident, sunt in culpa qui  officia deserunt mollit anim id est laborum.  Sed ut perspiciatis unde omnis iste natus error  sit vo accusantium doloremque laudantium, totam  rem aperiam, eaque ipsa quae ab illo explicabo.</p>
-            
-            <button type="button" class="btn btn-default btn-lg"><i class="fa fa-linux white"></i>DOWNLOAD</button>
-            <button type="button" class="btn btn-default btn-lg gold"><i class="fa fa-windows white"></i>DOWNLOAD</button>
-            <button type="button" class="btn btn-default btn-lg"><i class="fa fa-android white"></i>DOWNLOAD</button>
-        </div>
+                <h2 class="heading b-padding-50 wp-up-5">OVER ONE MILLION PEOPLE USING <span class="gold-text">LEGIBRA</span> APP</h2>
+                <p class="font-light white wp-up-5">Duis aute irure dolor in reprehenderit in  voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  cupidatat non proident, sunt in culpa qui  officia deserunt mollit anim id est laborum.  Sed ut perspiciatis unde omnis iste natus error  sit vo accusantium doloremque laudantium, totam  rem aperiam, eaque ipsa quae ab illo explicabo.</p>
+                <div class="wp-up-5">
+                    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-linux white"></i>DOWNLOAD</button>
+                    <button type="button" class="btn btn-default btn-lg gold"><i class="fa fa-windows white"></i>DOWNLOAD</button>
+                    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-android white"></i>DOWNLOAD</button>
+                </div>            
+           </div><!--/container-->
+        </div><!--/wrapper--> 
     </section>
                             <!--FAQ-->
                            
-    <section id="faq">
-        <div class="text-center b-padding-50">
-            <h2 class="heading p-font b-padding-15">Frequently asked questions</h2>
-            <img src="images/polygon_long.png" alt="polygon">
-        </div>
-        <div class="row">
-            <div class="col-md-6 text-justified">
-                <div class="faq-content">
-                    <h3 class="p-font-light2 ">1.Can I change plan after buying?</h3>
-                    <p class="font-light grey">
-                        sunt in culpa qui officia deserunt mollit anim 
-                        id est laborum. Sed ut perspiciatis unde omnis 
-                        iste natus error sit voluptatem accusantium
-                        doloremque laudantium, </p>
-                </div>
-                <div class="faq-content">
-                    <h3 class="p-font-light2 ">2.Do you have any discount offer?</h3>
-                    <p class="font-light grey">
-                        sunt in culpa qui officia deserunt mollit anim 
-                        id est laborum. Sed ut perspiciatis unde omnis 
-                        iste natus error sit voluptatem accusantium
-                        doloremque laudantium, </p>
-                </div>
-                <div class="faq-content">
-                    <h3 class="p-font-light2 ">3.What are the payment methods?</h3>
-                    <p class="font-light grey">
-                        sunt in culpa qui officia deserunt mollit anim 
-                        id est laborum. Sed ut perspiciatis unde omnis 
-                        iste natus error sit voluptatem accusantium
-                        doloremque laudantium, </p>
-                </div>
+<section id="faq">
+   <div class="wrapper">
+       <div class="container">
+            <div class="text-center b-padding-50">
+                <h2 class="heading p-font b-padding-15">Frequently asked questions</h2>
+                <img src="images/polygon_long.png" alt="polygon">
             </div>
-            <div class="col-md-6 text-justified">
-                <div class="faq-content">
-                    <h3 class="p-font-light2 ">1.What are the payment methods?</h3>
-                    <p class="font-light grey">
-                        sunt in culpa qui officia deserunt mollit anim 
-                        id est laborum. Sed ut perspiciatis unde omnis 
-                        iste natus error sit voluptatem accusantium
-                        doloremque laudantium, </p>
-                </div>
-                <div class="faq-content">
-                    <h3 class="p-font-light2 ">2.Can I change plans after buying?</h3>
-                    <p class="font-light grey">
-                        sunt in culpa qui officia deserunt mollit anim 
-                        id est laborum. Sed ut perspiciatis unde omnis 
-                        iste natus error sit voluptatem accusantium
-                        doloremque laudantium, </p>
-                </div>
-                <div class="faq-content">
-                    <h3 class="p-font-light2 ">3.Do you have any discount offer?</h3>
-                    <p class="font-light grey">
-                        sunt in culpa qui officia deserunt mollit anim 
-                        id est laborum. Sed ut perspiciatis unde omnis 
-                        iste natus error sit voluptatem accusantium
-                        doloremque laudantium, </p>
-                </div>
-            </div>
-        </div>
+                <div class="row">
+                    <div class="col-md-6 text-justified wp-left-2">
+                        <div class="faq-content">
+                            <h3 class="p-font-light2 ">1.Can I change plan after buying?</h3>
+                            <p class="font-light grey">
+                                sunt in culpa qui officia deserunt mollit anim 
+                                id est laborum. Sed ut perspiciatis unde omnis 
+                                iste natus error sit voluptatem accusantium
+                                doloremque laudantium, </p>
+                        </div>
+                        <div class="faq-content">
+                            <h3 class="p-font-light2 ">2.Do you have any discount offer?</h3>
+                            <p class="font-light grey">
+                                sunt in culpa qui officia deserunt mollit anim 
+                                id est laborum. Sed ut perspiciatis unde omnis 
+                                iste natus error sit voluptatem accusantium
+                                doloremque laudantium, </p>
+                        </div>
+                        <div class="faq-content">
+                            <h3 class="p-font-light2 ">3.What are the payment methods?</h3>
+                            <p class="font-light grey">
+                                sunt in culpa qui officia deserunt mollit anim 
+                                id est laborum. Sed ut perspiciatis unde omnis 
+                                iste natus error sit voluptatem accusantium
+                                doloremque laudantium, </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-justified wp-right-2">
+                        <div class="faq-content">
+                            <h3 class="p-font-light2 ">4.What are the payment methods?</h3>
+                            <p class="font-light grey">
+                                sunt in culpa qui officia deserunt mollit anim 
+                                id est laborum. Sed ut perspiciatis unde omnis 
+                                iste natus error sit voluptatem accusantium
+                                doloremque laudantium, </p>
+                        </div>
+                        <div class="faq-content">
+                            <h3 class="p-font-light2 ">5.Can I change plans after buying?</h3>
+                            <p class="font-light grey">
+                                sunt in culpa qui officia deserunt mollit anim 
+                                id est laborum. Sed ut perspiciatis unde omnis 
+                                iste natus error sit voluptatem accusantium
+                                doloremque laudantium, </p>
+                        </div>
+                        <div class="faq-content">
+                            <h3 class="p-font-light2 ">6.Do you have any discount offer?</h3>
+                            <p class="font-light grey">
+                                sunt in culpa qui officia deserunt mollit anim 
+                                id est laborum. Sed ut perspiciatis unde omnis 
+                                iste natus error sit voluptatem accusantium
+                                doloremque laudantium, </p>
+                        </div>
+                    </div><!--/col-md-6-->
+                </div><!--/row-->
+           </div><!--/container-->
+        </div><!--/wrapper-->
     </section>                       
                             <!--CONTACT-->
 <section id="contact" class="p-bg">
-    <div class="container text-center">
-       <h2 class="heading b-padding-15">CONTACT US</h2>
-       <img src="images/polygon.png" alt="polygon image">
-        <div class="row t-padding-50">
-            <div class="col-md-6 text-right b-padding-30" id="form">
-                <form class="form-inline ">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                    </div>
-                    <textarea class="textarea form-control block" rows="6" placeholder="Your message..."></textarea>
-                </form>
-            </div>
-            <div class="col-md-6 b-padding-20">
-                <div class="contact-info text-left">
-                    <div class="b-padding-">
-                        <i class="icon_pin_alt gold-text"></i> 
-                        <p class="font-light">Eden Square Complex | Block 1 | 7th floor Green Way off Chiromo Road | Westlands </p>
-                    </div> 
-                    <div class="clearfix">
-                        <i class="icon_phone gold-text"></i> 
-                        <p class="font-light">+254 703 041 805 <span class="block">+254 730 173 805</span></p>
-                    </div>
-                    <div class="clearfix">
-                        <i class="icon_mail_alt gold-text"></i> 
-                        <p class="font-light">info@legibra.com <span class="block">www.legibra.com</span></p></div>
+   <div class="wrapper">
+        <div class="container text-center">
+           <h2 class="heading b-padding-15">CONTACT US</h2>
+           <img src="images/polygon.png" alt="polygon image">
+            <div class="row t-padding-50">
+                <div class="col-md-6 text-right b-padding-30" id="form">
+                    <form class="form-inline ">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <textarea class="textarea form-control block" rows="6" placeholder="Your message..."></textarea>
+                    </form>
                 </div>
-            </div>
-        </div>
-    </div>
+                <div class="col-md-6 b-padding-20">
+                    <div class="contact-info text-left">
+                        <div class="b-padding-">
+                            <i class="icon_pin_alt gold-text"></i> 
+                            <p class="font-light">Eden Square Complex | Block 1 | 7th floor Green Way off Chiromo Road | Westlands </p>
+                        </div> 
+                        <div class="clearfix">
+                            <i class="icon_phone gold-text"></i> 
+                            <p class="font-light">+254 703 041 805 <span class="block">+254 730 173 805</span></p>
+                        </div>
+                        <div class="clearfix">
+                            <i class="icon_mail_alt gold-text"></i> 
+                            <p class="font-light">info@legibra.com <span class="block">www.legibra.com</span></p></div>
+                    </div>
+                </div><!--/col-md-6-->
+            </div><!--/row-->
+        </div><!--/container-->
+    </div><!--/wrapper-->
 </section>        
                             <!--FOOTER-->
         
-        <footer id="footer">
+    <footer id="footer">
             <div class="container text-center">
                 <ul class="social">
                     <li><a href="https://www.facebook.com/legibraholdings"><i class="social_facebook"></i></a></li>
@@ -444,15 +498,19 @@
                     <li><a href="https://twitter.com/legibra"><i class="social_twitter"></i></a></li>
                     <li><a href="#"><i class="social_googleplus"></i></a></li>
                     <li><a href="#"><i class="social_dribbble"></i></a></li>
-                    
+
                 </ul>
                 <p class="copyright font-light grey">&copy;2017 Copyright. All rights reserved. LEGIBRA App</p>
-            </div>
-        </footer>
+           </div><!--/container-->
+    </footer>
 
         <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!--        <script src="js/bootstrap.min.js"></script>-->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
