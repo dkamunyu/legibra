@@ -726,6 +726,11 @@ video {
     padding-right: 10px;
 }
 
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
 .video-social {
     color: #fff;
     width: 45px;
