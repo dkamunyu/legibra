@@ -608,6 +608,8 @@ h4 {
 .carousel-control.right {
     right: 40px;
 }
+
+
 /*----------------------------------------------------------------------------
 
                                 SCREENSHOTS CAROUSEL
@@ -917,21 +919,22 @@ footer {
 
 .social li {
     display: inline;
-    padding-right: 20px;
+    padding-right: 10px;
     margin-bottom: 20px;
     color: #7f65c7;
     
 }
+
 
 .social li:last-of-type {
     padding-right: 0;
 }
 
 #footer i {
-    width: 50px;
+    width: 120px;
     border: 1px solid #7f65c7;
-    padding: 12px 13px;
-    font-size: 18px;
+    padding: 12px 11px;
+    font-size: 17px;
     color: #7f65c7;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -953,6 +956,19 @@ footer li {
     padding: 0;
 }
 
+@media (min-width: 480px) {
+    .social li {
+        padding-right: 25px;
+
+    }
+
+    #footer i {
+        width: 50px;
+        padding: 12px 15px;
+        font-size: 18px;
+    }
+
+}
 
 /*----------------------------------------------------------------------------
 
