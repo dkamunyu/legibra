@@ -48,6 +48,14 @@ section {
     padding: 0 40px;
 }
 
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 10px ;
+/*        margin: 0 auto;*/
+    }
+   
+}
+
 .img-responsive {
     margin: auto;
 }
@@ -163,7 +171,13 @@ section {
 
 /*Buttons*/
 
-.btn-default {
+.btn:focus,
+.btn:active {
+    outline: none !important;
+}
+
+.btn-default,
+.btn-default:focus {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -241,7 +255,8 @@ section {
 } 
 
 .navbar-default .navbar-toggle {
-    border-color: transparent; 
+    border-color: transparent;
+    margin-right: 11px;
 
 }
 .navbar-default .navbar-toggle,
@@ -282,18 +297,19 @@ section {
     float: none!important;
 }
     
-.navbar-nav>li {
 
-}
-    
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.navbar-collapse.in {
+    overflow: hidden;
+}
 .collapse.in{
     display:block !important;
-    margin-top: 20px;
     text-align: center ;
+    padding: 0 !important;
     }
 }
 
@@ -318,16 +334,43 @@ hr {
     
 }
 
+@media (max-width:767px) {
+    .navbar-nav>li {
+        text-align: center;
+    }
+   
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
 /*----------------------------------------------------------------------------
 
                                     HEADER
 
 ------------------------------------------------------------------------------*/
+.container-fluid {
+    padding: 0;
+}
+header {
+    padding-bottom: 50px;
+}
 
+.header {
+    margin: 25px 0 0;
+}
 
 @media (min-width: 768px) {
+    
+    header {
+        padding-bottom: 100px;
+    }
     .header {
-        margin-top: 75px;
+        margin: 55px 0;
     }
 }
 
@@ -342,7 +385,7 @@ hr {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.4;
 }
 
@@ -350,6 +393,7 @@ h4 {
     letter-spacing: 5px; 
     line-height: 2;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 @media (min-width:640px){
@@ -357,13 +401,18 @@ h4 {
         font-size: 50px;
     }
     h4 {
-        letter-spacing: 15px;  
+        letter-spacing: 15px; 
+        font-size: 18px;
+    }
+    
+    .col-md-8 {
+        margin-bottom: 40px;
     }
 }
 
 .icon_download {
-    font-size: 23px;
-    padding-right: 15px;
+    font-size: 18px;
+    padding-right: 14px;
     vertical-align: middle;
 }
 
@@ -639,12 +688,12 @@ h4 {
 
 .owl-carousel .owl-prev {
     left: -63px;
-    top: 60px;
+    top: 40%;
 }
 
 .owl-carousel .owl-next {
     right: -30px;
-    top: 60px;
+    top: 40%;
 }
 
 .owl-stage {
@@ -998,6 +1047,11 @@ footer li {
 .bounceInUp,
 .pulse{
     animation-duration: 2s;
+}
+
+.bounceIn,
+.bounceInUp {
+    animation-duration: 3s;
 }
 .pulse {
     animation-iteration-count: 5;

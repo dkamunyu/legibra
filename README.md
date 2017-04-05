@@ -1,5 +1,6 @@
-# legibra
-PSD to HTML conversion using:
-HTML/CSS
-jQuery/JS
-Bootstrap
+# LEGIBRA
+PSD to HTML (PSD provided by Legibra)
+Conversion using:
+HTML/CSS,
+jQuery/JS,
+Bootstrap,
