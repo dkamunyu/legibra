@@ -1067,39 +1067,28 @@ footer li {
                                 ANIMATIONS
 
 ------------------------------------------------------------------------------*/
-.wp-left,.wp-right,.wp-left-1,.wp-right-1,.wp-up-3,.wp-up-4,.wp-up-5,.wp-up-6,.wp-up-7,.wp-up-8 {filter: alpha(opacity=100);}
 
-.wp-left .animated,
-.wp-right .animated,
-.wp-up-1 .animated,
-.wp-left-1 .animated,
-.wp-up-2 .animated,
-.wp-right-1 .animated,
-.wp-up-3 .animated,
-.wp-up-4 .animated,
-.wp-up-5 .animated,
-.wp-up-6 .animated,
-.wp-up-7 .animated,
-.wp-up-8 .animated
-{
-    opacity: 1; 
+.animated {
+    opacity: 1 ;
     
 }
-
 .fadeInUp,
 .fadeInLeft,
 .fadeInRight,
 .bounceIn,
 .bounceInUp,
 .pulse{
+    -webkit-animation-duration: 2s;
     animation-duration: 2s;
 }
 
 .bounceIn,
 .bounceInUp {
+    -webkit-animation-duration: 3s;
     animation-duration: 3s;
 }
 .pulse {
+    -webkit-animation-iteration-count: 5;
     animation-iteration-count: 5;
 }
 
