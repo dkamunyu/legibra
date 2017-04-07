@@ -32,6 +32,8 @@
         <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="css/ie-styles.css" >
         <![endif]-->
         
     </head>
@@ -220,14 +222,14 @@
             <div class="container text-center ">
                 <div class="b-padding-50">
                     <h2 class="heading white b-padding-15">App Screenshots</h2>
-                    <img src="images/polygon.png" alt="polygon">
+                    <img class="img-responsive" src="images/polygon.png" alt="polygon">
                 </div>
                                 <!--CAROUSEL-->
                 <div class="row">
                     <div class="col-sm-12 wp-up-7">
                         <div class="wrapper">
                            <div id="app-scr-carousel " >
-                            <div class="owl-carousel owl-theme">
+                               <div id="owl-carousel" class="owl-carousel owl-theme">
                                 <div><img src="images/scr1.png" class="img-responsive" alt="screenshot"></div>
                                 <div><img src="images/scr2.png" class="img-responsive" alt="screenshot"></div>
                                 <div><img src="images/scr3.png" class="img-responsive" alt="screenshot"></div>
@@ -236,70 +238,63 @@
                                 <div><img src="images/scr6.png" class="img-responsive" alt="screenshot"></div>   
                             </div>     
                         </div>
-                        </div>
-                    </div>
+                        </div><!--./wrapper--> 
+                    </div><!--./col-sm-12--> 
                 </div> <!--./row-->                         
             </div> <!--./container-->
         </div> <!--./wrapper-->   
     </section>              
                         <!--TESTIMONIALS-->                       
-<section id="testimonials">    				
+        <section id="testimonials ">    				
     <div class="container">
-        <div class="row wp-up-8">
-            <div class="col-sm-12">
-               <div class="wrapper">
-                <div class="carousel slide " id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="item active item text center">
-                            <img class="profile-circle" src="images/customer-3.jpg" alt="">                           
-                            <blockquote>
-                                <h3 class="grey">Sheila Kayanga</h3>
-                                <p class="grey font-light b-padding-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas,quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus</p>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star-half_alt gold-text"></i>
-                            </blockquote>	
-                        </div>
-                        <div class="item text center">
-                            <img class="profile-circle" src="images/customer-2.jpg" alt="">                           
-                            <blockquote>
-                                <h3 class="grey">Ezekiel Chinwe</h3>
-                                <p class="grey font-light b-padding-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas,quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus</p>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star_alt gold-text"></i>
-                            </blockquote>	
-                        </div>
-                        <div class="item text center">
-                            <img class="profile-circle" src="images/customer-1.jpg" alt="">                           
-                            <blockquote>
-                                <h3 class="grey">Sam Kazungu</h3>
-                                <p class="grey font-light b-padding-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas,quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus</p>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star gold-text"></i>
-                                <i class="icon_star-half_alt gold-text"></i>
-                            </blockquote>	
-                        </div>
-                    </div> <!--/carousel-inner-->
-                </div>
-                <div class="controls">
-                    <a class="left carousel-control" href="#fade-quote-carousel" role="button" data-slide="prev">
-                        <span class="arrow_carrot-left_alt2" aria-hidden="true"></span>
-                    </a>
-                    <a class="right carousel-control" href="#fade-quote-carousel" role="button" data-slide="next">
-                        <span class="arrow_carrot-right_alt2" aria-hidden="true"></span>
-                    </a> 
+               <div class="row">
+                   <div class="col-sm-12">
+                       
+                   
+                <div class="wrapper">
+                    <div id=" t-carousel wp-up-8" >
+                        <div id="owls-carousel" class="owl-carousel owl-theme">
+                            <div class="item active item text-center">
+                                <img class="profile-circle" src="images/customer-3.jpg" alt="laughing lady">                        
+                                <blockquote>
+                                    <h3 class="grey">Sheila Kayanga</h3>
+                                    <p class="grey font-light b-padding-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas,quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus</p>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star-half_alt gold-text"></i>
+                                </blockquote>	
+                            </div>
+                            <div class="item text-center">
+                                <img class="profile-circle" src="images/customer-2.jpg" alt="smiling man with a hat">                           
+                                <blockquote>
+                                    <h3 class="grey">Ezekiel Chinwe</h3>
+                                    <p class="grey font-light b-padding-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas,quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus</p>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star_alt gold-text"></i>
+                                </blockquote>	
+                            </div>
+                            <div class="item text-center">
+                                <img class="profile-circle" src="images/customer-1.jpg" alt="smiling man">                           
+                                <blockquote>
+                                    <h3 class="grey">Sam Kazungu</h3>
+                                    <p class="grey font-light b-padding-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas,quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus</p>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star gold-text"></i>
+                                    <i class="icon_star-half_alt gold-text"></i>
+                                </blockquote>	
+                            </div>
+                        </div>     
+                    </div>
+                </div><!--./wrapper--> 
                    </div>
-                </div><!--/wrapper-->                      
-            </div>	<!--/col-sm-12-->						
-        </div><!--/.row-->
+        </div>
     </div><!--/container-->
 </section>                                                                       
                         
@@ -506,12 +501,14 @@
     </footer>
 
         <!-- jQuery -->
-<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap-carousel.min.js"></script>
+        <script src="js/placeholders.min.js"></script>
         <script src="js/selectivizr-min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/main.min.js"></script>
     </body>
 </html>
