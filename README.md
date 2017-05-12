@@ -1,8 +1,8 @@
 # LEGIBRA
-PSD to HTML (PSD provided by Legibra)
-Conversion using:
+PSD to HTML Conversion using:
 HTML/CSS,
 jQuery/JS,
-Bootstrap,
+Bootstrap.
+(PSD provided by Legibra)
 
 View site: https://dkamunyu.github.io/legibra/
