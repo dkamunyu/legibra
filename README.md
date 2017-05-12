@@ -1,5 +1,5 @@
 # LEGIBRA
-PSD to HTML Conversion using:
+PSD to HTML5 Conversion using:
 HTML/CSS,
 jQuery/JS,
 Bootstrap.
